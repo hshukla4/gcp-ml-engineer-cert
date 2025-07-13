@@ -1,0 +1,16 @@
+# Core GCP (no pipeline components for now)
+google-cloud-aiplatform
+google-cloud-bigquery
+google-cloud-storage
+
+# ML essentials
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+xgboost
+
+# Jupyter
+jupyter
+notebook

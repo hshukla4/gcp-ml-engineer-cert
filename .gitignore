@@ -1,0 +1,155 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# GCP
+*.json
+!schemas/*.json
+!examples/*.json
+!package.json
+service-account-key.json
+gcp-key.json
+.gcloud/
+credentials/
+keys/
+
+# ML/Data
+data/raw/
+data/processed/
+data/interim/
+data/external/
+*.csv
+*.parquet
+*.tfrecord
+*.h5
+*.pb
+*.pkl
+*.joblib
+*.pth
+*.pt
+*.onnx
+models/saved/
+models/trained/
+checkpoints/
+mlruns/
+wandb/
+tensorboard/
+*.tfevent*
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.tfplan
+
+# Large files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.dmg
+*.iso
+*.jar
+*.war
+*.ear
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+!docs/images/*.png
+!docs/images/*.jpg
+!learning/diagrams/**/*.png
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cloud specific
+.aws/
+.azure/
+.gcp/
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# Personal/Private
+personal/
+private/
+secret/
+secrets/
+
+# Keep empty directories with .gitkeep
+!.gitkeep
+
+# But allow these specific files
+!requirements.txt
+!requirements-dev.txt
+!setup.py
+!setup.cfg
+!Makefile
+!Dockerfile
+!.dockerignore
+learning/diagrams/**/*.png
