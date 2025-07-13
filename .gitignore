@@ -118,7 +118,6 @@ terraform.tfvars
 *.svg
 !docs/images/*.png
 !docs/images/*.jpg
-!learning/diagrams/**/*.png
 
 # Database
 *.db
@@ -152,5 +151,4 @@ secrets/
 !Makefile
 !Dockerfile
 !.dockerignore
-learning/diagrams/**/*.png
 **init**.py
