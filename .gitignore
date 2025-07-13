@@ -153,3 +153,5 @@ secrets/
 !Dockerfile
 !.dockerignore
 learning/diagrams/**/*.png
+**init**.py
+diagrams/
